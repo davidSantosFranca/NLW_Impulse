@@ -1,0 +1,19 @@
+#SOLID_
+
+1 - Single responsibility Principle
+  Each class or method has only one responsibility(business rule);
+
+2 - Open/Closed Principle
+  Application classes must be open for extension but closed for modification.
+
+3 - Liskov Substitution Principle
+  A class should be open for substitution of an inherited class and it use should
+  remain working.
+
+4 - Interface Segregation Principle
+  An interface should expose methods that its client do not need or will use.
+
+5 - Dependency Inversion Principle
+  Any concrete class should not depend on another concrete class, by that, they should
+  depend only on abstractions or interfaces.
+
