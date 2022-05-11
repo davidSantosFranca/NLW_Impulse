@@ -6,12 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",
+    "axios": "^0.27.2",
     "gh-pages": "^3.2.3",
     "html2canvas": "^1.4.1",
     "phosphor-react": "^1.4.1",

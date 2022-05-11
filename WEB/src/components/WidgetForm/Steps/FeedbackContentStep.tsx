@@ -29,10 +29,10 @@ export function FeedbackContentStep({
     setIsSendingFeedback(true);
     try{
       await api.post('/feedbacks',{
-      type: feedbackType,
-      comment: comment,
-      screenshot: screenshot
-    })
+        type: feedbackType,
+        comment: comment,
+        screenshot: screenshot
+      })
     }
     catch(error){
       console.log("Error while posting feedback", error)
