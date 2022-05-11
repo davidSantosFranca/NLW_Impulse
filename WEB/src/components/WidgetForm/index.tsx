@@ -60,7 +60,7 @@ export function WidgetForm() {
         />
       )}
 
-      <footer>
+      <footer className="font-display">
         Feito com ♥ pela{" "}
         <a
           className="underline underline-offset-2"
@@ -68,7 +68,7 @@ export function WidgetForm() {
         >
           Rocketseat
         </a>
-      </footer>
+      </footer >
     </div>
   );
 }

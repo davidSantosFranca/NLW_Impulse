@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
+    fontFamily: {
+      'display': ['Inter','ui-sans-serif', 'system-ui',]
+    },
     extend: {
       colors:{
         brand:{
