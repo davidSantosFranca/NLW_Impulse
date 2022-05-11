@@ -32,13 +32,13 @@ export class SubmitFeedbackUseCase{
       comment: comment,
       screenshot: screenshot
     })
-
     await this.mailApdater.sendMail({
       subject: "Novo Feedback",
       body: [
         `<div style="font-family: sans-serif; font-size:16px; color:#111">`,
         `<p>Tipo do feedback: ${type}</p>`,
         `<p>Comentario: ${comment}</p>`,
+        `<img src='${screenshot}' alt='screenshot'/>`,
         `</div>`,
       ].join("\n"),
     });

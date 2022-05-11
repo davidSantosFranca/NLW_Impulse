@@ -18,5 +18,5 @@ routes.post("/feedbacks", async (req, res) => {
     screenshot: screenshot,
   })
 
-  return res.status(201);
+  return res.status(201).send((new Date()).toString());
 });
