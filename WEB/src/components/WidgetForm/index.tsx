@@ -60,7 +60,7 @@ export function WidgetForm() {
         />
       )}
 
-      <footer className="font-display">
+      <footer>
         Feito com ♥ pela{" "}
         <a
           className="underline underline-offset-2"
