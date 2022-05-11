@@ -5,9 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "migrate":"npx prisma migrate deploy",
     "build": "tsc",
-    "start": "migrate && node dist/server.js",
+    "start": "npm run migrate && npm run server",
+    "migrate": "npx prisma migrate deploy",
+    "server": "node dist/server.js",
     "test": "jest"
   },
   "devDependencies": {
