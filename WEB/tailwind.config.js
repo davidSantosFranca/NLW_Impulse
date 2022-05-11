@@ -2,7 +2,6 @@ module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
     fontFamily: {
-      'sans': ['Inter', ...defaultTheme.fontFamily.sans],
       'display': ['Inter','ui-sans-serif', 'system-ui',]
     },
     extend: {
